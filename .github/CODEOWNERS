@@ -1,0 +1,5 @@
+# Order is important; the last matching pattern takes the most
+
+# Global rule for entire repository 
+* @Zampfi/devs
+
