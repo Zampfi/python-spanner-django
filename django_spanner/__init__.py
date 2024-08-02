@@ -72,7 +72,8 @@ def autofield_init(self, *args, **kwargs):
 
 
 AutoField.__init__ = autofield_init
-AutoField.db_returning = False
+#removing this as it's causing bugs
+# AutoField.db_returning = False
 AutoField.validators = []
 
 SmallAutoField.__init__ = autofield_init
